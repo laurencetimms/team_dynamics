@@ -1,0 +1,21 @@
+# Environment
+harness/.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node (if wrapper is ever built out)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test results (keep .gitkeep, ignore actual logs if preferred)
+# Comment out the next line if you want results version-controlled
+# tests/results/*.md
